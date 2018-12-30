@@ -39,7 +39,6 @@ body {
 }
 
 .hand {
-    width: 47%;
     height: 6px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -54,12 +53,17 @@ body {
 
 .secHand {
     background: #0be881;
+    width: 47%;
 }
 
 .minHand {
     background: #347ce7;
+    width: 37%;
+    left: 13%;
 }
 
 .hourHand {
     background: #cf57bb;
+    width: 30%;
+    left: 20%;
 }
