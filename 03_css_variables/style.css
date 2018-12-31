@@ -1,0 +1,40 @@
+:root {
+    --frame: #ffc600;
+    --spacing: 10px;
+    --blur: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    background: var(--frame);
+    filter: blur(var(--blur));
+    width: var(--spacing);
+}
+
+h2 span {
+    color: var(--frame);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 50px;
+    border: solid var(--frame) 3px;
+}
+
+input {
+    width: 100px;
+}
