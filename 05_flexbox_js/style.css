@@ -26,7 +26,7 @@ body {
 .panel {
     background: #6B0F9C;
     box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
-    color: white;
+    color: #fff;
     font-size: 18px;
     text-align: center;
     align-items: center;
@@ -51,7 +51,7 @@ body {
 }
 
 .panel2 {
-    background-image: url(https://images.unsplash.com/photo-1540871623552-fadd623a3a7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-image: url(https://images.unsplash.com/photo-1540698150744-8a0b2a4b3ad0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
 }
 
 .panel3 {
@@ -102,6 +102,7 @@ body {
 }
 
 .panel p:nth-child(2) {
+    padding-top: 58%;
     font-size: 4em;
 }
 
